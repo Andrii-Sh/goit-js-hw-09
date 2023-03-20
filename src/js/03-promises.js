@@ -27,8 +27,6 @@ function handleFormSubmit(evt) {
     position += 1;
     nextDelay += Number(step.value);
   }; 
-
-  // evt.currentTarget.reset();
 }
 
 function createPromise(position, delay) {
